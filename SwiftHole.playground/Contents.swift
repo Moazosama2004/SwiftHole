@@ -1,4 +1,12 @@
-import UIKit
+// Problem : Swapping 
+var a = 10
+var b = 20
 
-var greeting = "Hello, playground"
-print(greeting)
+// swap
+var c = a
+a = b
+b = c
+
+// results
+print(a)
+print(b)
