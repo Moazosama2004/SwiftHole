@@ -1,4 +1,6 @@
-import UIKit
+// Functions
+func greeting (name : String) {
+    print("Hi ,\(name)")
+}
 
-var greeting = "Hello, playground"
-print(greeting)
+greeting(name: "Moaz")
