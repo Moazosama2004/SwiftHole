@@ -1,4 +1,9 @@
-import UIKit
+func isOdd(n: Int) -> Bool {
+    if n % 2 == 0 {
+        return false
+    } else {
+        return true
+    }
+}
 
-var greeting = "Hello, playground"
-print(greeting)
+isOdd(n: 5)
